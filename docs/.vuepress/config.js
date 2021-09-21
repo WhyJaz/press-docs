@@ -8,8 +8,8 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/contents/js/基础类型.md' },
-      { text: 'Guide', link: '/contents/js/基础类型.md' },
+      { text: 'Home', link: '/contents/js/数据类型.md' },
+      { text: 'Guide', link: '/contents/js/数据类型.md' },
       // {
       //   text: 'Languages',
       //   items: [
@@ -23,8 +23,9 @@ module.exports = {
       {
         title: 'JS',
         children: [
-          ['/contents/js/基础类型.md', '基础类型'],
+          ['/contents/js/数据类型.md', '数据类型'],
           ['/contents/js/闭包.md', '闭包'],
+          ['/contents/js/防抖-节流.md', '防抖、节流'],
         ]
       },
     ]
