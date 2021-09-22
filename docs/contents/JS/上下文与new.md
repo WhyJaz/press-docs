@@ -6,11 +6,11 @@
 ## new
 一个 <code>new</code> 的调用会发生下面四个过程：
 * 生成一个新对象
-* 将新对象的__proto__绑定到构造函数的prototype
-* 绑定this为新对象
+* 将新对象的 <code>_\_proto__</code> 绑定到构造函数的 <code>prototype</code>
+* 绑定 this 为新对象
 * 返回这个新对象
 
-模拟实现一个new
+模拟实现一个 new
 ```js
 function myNew(con, ...args) {
   const obj = new Object()

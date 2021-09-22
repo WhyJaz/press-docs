@@ -182,7 +182,7 @@ obj.fn()();
 
 
 ## let、const与var的区别
-* let、const声明的全局变量不会挂在顶层对象（window）下面
+* let、const 声明的全局变量不会挂在顶层对象（window）下面
 * 存在块级作用域
 * 不存在变量提升
 * 存在暂时性死区

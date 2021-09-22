@@ -1,6 +1,13 @@
 module.exports = {
   base: '/vuepress-doc/', // 部署站点的基础路径
   title: '前端装逼大全',
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@images': '/assets/images'
+      }
+    }
+  },
   description: 'Just playing around',
   displayAllHeaders: true,
   markdown: {
@@ -9,7 +16,6 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/contents/js/数据类型.md' },
-      { text: 'Guide', link: '/contents/js/数据类型.md' },
       // {
       //   text: 'Languages',
       //   items: [
