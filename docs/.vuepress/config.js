@@ -16,6 +16,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/contents/js/数据类型.md' },
+      { text: '其他', link: '/others/codeRules.md' },
       // {
       //   text: 'Languages',
       //   items: [
@@ -30,12 +31,21 @@ module.exports = {
         title: 'JS',
         children: [
           ['/contents/js/数据类型.md', '数据类型'],
+          ['/contents/js/ES6.md', 'ES6'],
           ['/contents/js/闭包.md', '闭包'],
           ['/contents/js/防抖-节流-定时器.md', '防抖、节流、定时器'],
           ['/contents/js/上下文与new.md', '上下文与new'],
           ['/contents/js/call-bind-apply.md', 'call、bind、apply'],
           ['/contents/js/可迭代对象.md', '可迭代对象'],
           ['/contents/js/console测试题.md', 'console测试题'],
+        ]
+      },
+      {
+        title: 'HTML+CSS',
+        children: [
+          ['/contents/HTML+CSS/垂直水平居中.md', '垂直水平居中'],
+          ['/contents/HTML+CSS/常见试题.md', '常见试题'],
+          ['/contents/HTML+CSS/双栏布局与三栏布局.md', '双栏布局与三栏布局'],
         ]
       },
       {
