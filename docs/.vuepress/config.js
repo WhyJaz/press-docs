@@ -56,7 +56,10 @@ module.exports = {
         ]
       },
       {
-        title: 'Vue'
+        title: 'Vue',
+        children: [
+          ['/contents/Vue/常见试题.md', '常见试题'],
+        ]
       },
       {
         title: 'React'
