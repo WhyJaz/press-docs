@@ -4,13 +4,13 @@
 <br/> 
 
 ## new
-一个 <code>new</code> 的调用会发生下面四个过程：
+一个 `new` 的调用会发生下面四个过程：
 * 生成一个新对象
-* 将新对象的 <code>_\_proto__</code> 绑定到构造函数的 <code>prototype</code>
-* 绑定 this 为新对象
+* 将新对象的 `__proto__` 绑定到构造函数的 `prototype`
+* 绑定 `this` 为新对象
 * 返回这个新对象
 
-模拟实现一个 new
+模拟实现一个 `new`
 ```js
 function myNew(con, ...args) {
   const obj = new Object()
@@ -22,7 +22,7 @@ function myNew(con, ...args) {
 }
 ```
 
-对于 new 来说，还需要注意下运算符优先级。
+对于 `new` 来说，还需要注意下运算符优先级。
 ```js
 function Foo() {
   console.log('Foo')

@@ -30,14 +30,14 @@ module.exports = {
       {
         title: 'JS',
         children: [
-          ['/contents/js/数据类型.md', '数据类型'],
-          ['/contents/js/ES6.md', 'ES6'],
-          ['/contents/js/闭包.md', '闭包'],
-          ['/contents/js/防抖-节流-定时器.md', '防抖、节流、定时器'],
-          ['/contents/js/上下文与new.md', '上下文与new'],
-          ['/contents/js/call-bind-apply.md', 'call、bind、apply'],
-          ['/contents/js/可迭代对象.md', '可迭代对象'],
-          ['/contents/js/console测试题.md', 'console测试题'],
+          ['/contents/JS/数据类型.md', '数据类型'],
+          ['/contents/JS/ES6.md', 'ES6'],
+          ['/contents/JS/闭包.md', '闭包'],
+          ['/contents/JS/防抖-节流-定时器.md', '防抖、节流、定时器'],
+          ['/contents/JS/上下文与new.md', '上下文与new'],
+          ['/contents/JS/call-bind-apply.md', 'call、bind、apply'],
+          ['/contents/JS/可迭代对象.md', '可迭代对象'],
+          ['/contents/JS/console测试题.md', 'console测试题'],
         ]
       },
       {
@@ -51,8 +51,8 @@ module.exports = {
       {
         title: 'Browser',
         children: [
-          ['/contents/browser/客户端存储.md', '客户端存储'],
-          ['/contents/browser/网络请求.md', '网络请求'],
+          ['/contents/Browser/客户端存储.md', '客户端存储'],
+          ['/contents/Browser/网络请求.md', '网络请求'],
         ]
       },
       {
@@ -67,8 +67,8 @@ module.exports = {
       {
         title: 'Webpack',
         children: [
-          ['/contents/webpack/webpack基础.md', 'webpack基础'],
-          ['/contents/webpack/webpack进阶.md', 'webpack进阶'],
+          ['/contents/Webpack/webpack基础.md', 'webpack基础'],
+          ['/contents/Webpack/webpack进阶.md', 'webpack进阶'],
         ]
       },
       {

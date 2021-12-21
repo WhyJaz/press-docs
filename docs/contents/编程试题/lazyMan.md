@@ -1,6 +1,6 @@
-实现一个lazyMan
+实现一个 `lazyMan`
 
-考察知识点：链式调用，队列、eventLoop、闭包、轮询
+考察知识点：链式调用，队列、`eventLoop`、闭包、轮询
 ```js
 // 实现一个LazyMan，可以按照以下方式调用:
 LazyMan(“Hank”)输出:
